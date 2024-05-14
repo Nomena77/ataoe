@@ -1,0 +1,72 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient( to right, #f84829, #d9f53b );
+}
+img {
+    width: 350px;
+    height: 500px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+
+section#container {
+    background-color: #dd3c3c;
+    display: flex;
+    align-items: center;
+    margin: 50px auto; 
+    width: 700px;
+    height: 500px;
+    box-shadow: 3px 3px 10px 2px rgb(233, 177, 95);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: -30px;
+    border-radius: 12px;
+}
+
+section#container .right {
+    width: 300PX;
+    height: 500px;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+
+section#container .left {
+    margin-left: 30px auto;
+    margin-bottom: 0px;
+    width: 400px;
+    height: 500px;
+    background: url("/images/pexels-pramod-tiwari-13988977.jpg");
+    background-size: cover;
+}
+label {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 80%;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+
+button {
+    background: #466;
+    outline: none;
+    border: none;
+    width: 80%;
+    padding: 15px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.error {
+    display: none;
+}
